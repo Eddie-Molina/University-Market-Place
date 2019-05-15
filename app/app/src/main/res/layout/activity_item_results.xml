@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.example.morri.messingaround.ItemResults">
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="64dp"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nameText"
+        android:layout_alignStart="@+id/nameText"
+        android:layout_below="@+id/nameText"
+        android:layout_marginTop="24dp"
+        android:text="Description:" />
+
+    <TextView
+        android:id="@+id/listDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/descriptionText"
+        android:layout_alignStart="@+id/descriptionText"
+        android:layout_below="@+id/descriptionText"
+        android:layout_marginTop="27dp"
+        android:text="List Date: " />
+
+    <TextView
+        android:id="@+id/quantityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listDateText"
+        android:layout_alignStart="@+id/listDateText"
+        android:layout_below="@+id/listDateText"
+        android:layout_marginTop="28dp"
+        android:text="Quantity:" />
+
+    <TextView
+        android:id="@+id/priceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/quantityText"
+        android:layout_alignStart="@+id/quantityText"
+        android:layout_centerVertical="true"
+        android:text="Price:" />
+
+    <TextView
+        android:id="@+id/sellerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/priceText"
+        android:layout_alignStart="@+id/priceText"
+        android:layout_below="@+id/priceText"
+        android:layout_marginTop="24dp"
+        android:text="Seller:" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sellerText"
+        android:layout_alignStart="@+id/sellerText"
+        android:layout_below="@+id/sellerText"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="63dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/backButton"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_toEndOf="@+id/backButton"
+        android:layout_toRightOf="@+id/backButton"
+        android:text="Next" />
+
+</RelativeLayout>

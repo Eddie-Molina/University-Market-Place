@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Messing Around</string>
+    <string name="question1_prompt">Select 1st Security Question</string>
+    <string name="question2_prompt">Select 2nd Security Question</string>
+    <string name="security_question_prompt">Select a Security Question</string>
+    <string name="search_category_prompt">Select a Search Category</string>
+    <string-array name="question1_array">
+        <item>Select 1st Security Question</item>
+        <item>What hospital were you born in?</item>
+        <item>What was your high school mascot?</item>
+        <item>What was your childhood nickname?</item>
+        <item>What is your mother\'s middle name?</item>
+        <item>What was the make and model of your first car?</item>
+        <item>What was the name of your first pet?</item>
+        <item>What was the name of your childhood best friend?</item>
+        <item>What street did you grow up on?</item>
+    </string-array>
+    <string-array name="question2_array">
+        <item>Select 2nd Security Question</item>
+        <item>What hospital were you born in?</item>
+        <item>What was your high school mascot?</item>
+        <item>What was your childhood nickname?</item>
+        <item>What is your mother\'s middle name?</item>
+        <item>What was the make and model of your first car?</item>
+        <item>What was the name of your first pet?</item>
+        <item>What was the name of your childhood best friend?</item>
+        <item>What street did you grow up on?</item>
+    </string-array>
+    <string-array name="search_array">
+    <item>Select a Search Category</item>
+    <item>Users</item>
+    <item>Items/Services</item>
+    <item>Groups</item>
+</string-array>
+
+    <string-array name="search_array_club">
+        <item>Select a Search Category</item>
+        <item>Members</item>
+        <item>Groups</item>
+    </string-array>
+
+</resources>
